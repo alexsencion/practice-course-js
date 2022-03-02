@@ -31,12 +31,12 @@ console.group("Triangulo");
 // const triangleSide2 = 6;
 // const trianglebase = 4;
 
-console.log(
-    trianglePerimeter(6,6,4))
+// console.log(
+//     trianglePerimeter(6,6,4))
 
     
-console.log(
-    triangleArea(4,5.5))
+// console.log(
+//     triangleArea(4,5.5))
 
 
 // console.log("The triangle side measure: " 
@@ -61,6 +61,7 @@ function triangleArea(base,  height) {
 }
 // console.log("The area of triangle is: " + triangleArea + "cm^2");
 
+console.log(triangleArea(5,4))
 
 console.groupEnd();
 
@@ -119,3 +120,57 @@ console.log(
 console.groupEnd();
 
 
+//here we interact with HTML
+//Square
+
+function calcPerimeterSquare() {
+    const input = document.getElementById("SquareInput");
+    const value = input.value;
+
+    const perimeter = squarePerimeter(value);
+    alert(perimeter);
+}
+
+function calcAreaSquare() {
+    const input = document.getElementById("SquareInput");
+    const value = input.value;
+
+    const area = squareArea(value);
+    alert(area);
+}
+
+//triangle
+
+function calcPerimeterTriangle() {
+    const input = document.getElementById("TriangleInput");
+    const value = input.value;
+
+    const perimeter = trianglePerimeter(value);
+    alert(perimeter);
+}
+
+function calcAreaTriangle() {
+    const input = document.getElementById("TriangleInput");
+    const value = input.value;
+
+    const area = triangleArea(value);
+    alert(area);
+}
+
+// Circle
+
+function calcPerimeterCircle() {
+    const input = document.getElementById("CircleInput");
+    const value = input.value;
+
+    const perimeter = circlePerimeter(value);
+    alert(perimeter);
+}
+
+function calcAreaCircle() {
+    const input = document.getElementById("CircleInput");
+    const value = input.value;
+
+    const area = circleArea(value);
+    alert(area);
+}

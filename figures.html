@@ -7,9 +7,63 @@
     <title>Geometric Figures | JS-Course </title>
 </head>
 <body>
-    <h1>
-        Geometric Figures
-    </h1>
+    <header>
+        <h1>
+            Geometric Figures
+        </h1>
+        <p>This is the first workshop of the course</p>
+    </header>
+
+
+    <section>
+        <h2>Calculate the area and the perimeter of a square</h2>
+        <form>
+            <label for="SquareInput">
+                Write how much measure each side of your square:
+                <input id="SquareInput" type="number" />
+                <button type="button" onclick="calcPerimeterSquare()">
+                    Calculate the perimeter
+                </button>
+                <button type="button" onclick="calcAreaSquare()">
+                    Calculate the area
+                </button>
+            </label>
+        </form>
+    </section>
+    <hr/>
+    <section>
+        <h2>Calculate the area and the perimeter of a triangle</h2>
+        <form>
+            <label for="TriangleInput">
+                Write how much measure each side of your triangle:
+                <input id="TriangleInput" type="number" />
+                <button type="button" onclick="calcPerimeterTriangle()">
+                    Calculate the perimeter
+                </button>
+                <button type="button" onclick="calcAreaTriangle()">
+                    Calculate the area
+                </button>
+            </label>
+        </form>
+    </section>
+    <hr />
+    <section>
+        <h2>Calculate the area and the perimeter of a circle</h2>
+        <form>
+            <label for="CircleInput">
+                Write how much measure each side of your circle:
+                <input id="CircleInput" type="number" />
+                <button type="button" onclick="calcPerimeterCircle()">
+                    Calculate the perimeter
+                </button>
+                <button type="button" onclick="calcAreaCircle()">
+                    Calculate the area
+                </button>
+            </label>
+        </form>
+    </section>
+
+
     <script src="figures.js"></script>
 
 </body>
