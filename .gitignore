@@ -105,3 +105,6 @@ dist
 
 # Configuracion de VS Code
 .vscode
+
+# Challenge Folder
+challenge/
