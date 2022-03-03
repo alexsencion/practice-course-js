@@ -5,4 +5,11 @@
 - First Step: define the formulas
 - Second step: implement the formulas in JavaScript
 - third step: create functions
-- fourth step: integra JavaScript with HTML
+- fourth step: integrate JavaScript with HTML
+
+## workshop #2: porcentages and discounts
+
+- First Step: define the formulas
+- Second step: implement the formulas in JavaScript
+- third step: create functions
+- fourth step: integrate JavaScript with HTML
