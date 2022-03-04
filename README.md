@@ -13,3 +13,10 @@
 - Second step: implement the formulas in JavaScript
 - third step: create functions
 - fourth step: integrate JavaScript with HTML
+
+## workshop #3: average, median and mean
+
+- First Step: define the formulas
+- Second step: implement the formulas in JavaScript
+- third step: create functions
+- fourth step: integrate JavaScript with HTML
